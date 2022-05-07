@@ -1,0 +1,220 @@
+
+:root{
+    --color__primario: #187BBB;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Quicksand', sans-serif; 
+    text-decoration: none;
+
+}
+
+.container {
+    background-color: var(--color__primario);
+   padding: 2px 20px 0px 20px;
+   gap: 12px;
+}
+
+
+
+.flex-box{
+    display: flex;
+}
+
+.justify-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo img {
+    width: 150px;
+    padding-bottom: 13px;
+    padding-left: 40px;
+}
+
+.menu {
+    color: white;
+    padding-top: 30px;
+}
+
+.menu ul li {
+    display: inline;
+    
+}
+
+
+.menu ul li a{
+    color: #ffffff;
+    background-color: var(--color__primario);
+    border-radius: 40px;
+    font-size: 13px;
+    padding: 7px 16px;
+    margin: 0px 10px;
+    
+}
+
+.menu ul li a:hover{
+    background-color: #090794;
+    box-shadow: 11px 6px 32px 2px rgb(26, 110, 143);
+    transition: 2s;
+}
+/* ------*/
+
+.container_1 {
+    
+    background-color: #ffffff;
+   padding: 20px;
+    margin-bottom: 35px;
+    
+}
+
+.container_1 .flex-box {
+    display: flex;
+}
+
+.box{
+    
+    text-align: start;
+    padding: 30px;
+    width: 90%;
+    margin: auto;
+    margin-left: 20px;
+}
+
+h1{
+    color: #FBC12A;
+    font-size: 75px;
+}
+
+p{
+    font-size: 16px;
+    margin-top: 50px;
+    text-align: justify;
+    width: 70%;
+}
+
+.logo1 img{
+    width: 420px;
+    padding-top: 100px;
+    padding-right: 50px;
+}
+
+
+/*------*/
+.box_2{
+    background-color: #a3a3a3;
+  
+    text-align: start;
+    padding: 30px 30px 100px 30px;
+    
+    margin: auto;
+    
+    
+}
+
+.box_2 .marca_2 h1{
+    color: rgb(252, 252, 252);
+    font-size: 60px;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+.box_2 .marca_2 h2{
+    color: white;
+    font-size: 20px;
+    padding-top: 30px;
+    margin-left: 40px;
+}
+
+
+.logotipo1{
+    border: 2px solid rgb(99, 99, 99);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #FBC12A;
+}
+
+.logotipo2{
+    border: 2px solid rgb(99, 99, 99);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--color__primario);
+}
+
+.logotipo3{
+    border: 2px solid rgb(99, 99, 99);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: beige;
+}
+
+
+.contenedor_baby{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+.justify-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor_baby img{
+    width: 350px;
+}
+
+.linkcontainer{
+    text-align: right;
+   
+}
+
+
+/*--footer*/
+
+
+footer{
+    background-color: var(--color__primario);
+    color: white;
+    padding: 40px 60px;
+ 
+}
+
+footer a{
+    color: white;
+}
+
+footer p{
+    text-align: center;
+    padding-left: 200px;
+    
+}
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container_4.justify-content{
+    display: flex;
+    justify-content: center;
+}
+.wd{
+    margin: 10px;
+}
+
+
+/* ##Dispositivo = Smartphones de 320px a 479px */
+@media (min-width: 320px) and (max-width: 480px) {
+
+    /*Aquí van las propiedades y valores según el dispositivo*/
+    .container {
+        background-color: var(--color__primario);
+       padding: 2px 20px 0px 20px;
+    }
+}
+
+
